@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context="com.example.sunny.numbersapi.QuestFacts">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quest Facts(Select One)"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="9dp"
+        />
+
+    <Button
+        android:id="@+id/Trivia_quest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_background"
+        android:text="Trivia" />
+
+    <EditText
+        android:id="@+id/triviaQuestContent"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Value"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/Math_quest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_background"
+        android:text="Math" />
+
+    <EditText
+        android:id="@+id/mathQuestContent"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Value"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/Date_quest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_background"
+        android:text="Date" />
+
+    <EditText
+        android:id="@+id/dateQuestContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date MM/DD"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/Year_quest"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year" />
+
+    <EditText
+        android:id="@+id/yearQuestContent"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="Enter Value"
+        android:visibility="gone"
+        />
+
+    <Button
+
+        android:id="@+id/submitQuest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#880E4F"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/circular_corners"
+        android:textAllCaps="false"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/questHeading"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:text="Heading" />
+
+    <TextView
+        android:id="@+id/questContent"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:textSize="15dp"
+        android:textColor="#282833"
+        android:layout_height="wrap_content" />
+</LinearLayout>
